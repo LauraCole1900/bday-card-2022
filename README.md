@@ -25,7 +25,7 @@ This is a simple little React-based "Happy Birthday" e-card.
 ## Screenshot
 
 Happy Birthday:
-![Happy birthday](images/#)
+![Happy birthday](assets/images/#)
 
 ## Installation Instructions
 
@@ -45,7 +45,7 @@ npm run test
 
 ## Credits
 
-N/A
+Code controlling playback rate of embedded audio files from [ynishi](https://stackoverflow.com/users/15015691/ynishi) and found [here](https://stackoverflow.com/questions/58731760/how-to-use-playbackrate-parameter-for-video-element-in-reactjs)
 
 ## Contributing
 
