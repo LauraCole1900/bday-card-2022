@@ -3,7 +3,7 @@
   --thumbBg: #7fff00;
   --trackSize: 0.5em;
   --disabled: #c5ff8c;
-  --trackRed: #ff0000;
+  --trackGray: #d3d3d3;
 }
 
 .around {
@@ -13,6 +13,8 @@
 
 .pbrButton {
   max-width: 5rem;
+  background-color: var(--thumbBg);
+  color: var(--charcoal);
 }
 
 .pbrLabel {
@@ -102,16 +104,16 @@
 /* Track */
 .pbrSlider::-webkit-slider-runnable-track {
   height: var(--trackSize);
-  background-color: var(--trackRed);
+  background-color: var(--trackGray);
   border-radius: calc(var(--trackSize) / 2);
 }
 .pbrSlider::-moz-range-track {
   height: var(--trackSize);
-  background-color: var(--trackRed);
+  background-color: var(--trackGray);
   border-radius: calc(var(--trackSize) / 2);
 }
 .pbrSlider::-ms-track {
   height: var(--trackSize);
-  background-color: var(--trackRed);
+  background-color: var(--trackGray);
   border-radius: calc(var(--trackSize) / 2);
 }

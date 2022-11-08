@@ -58,7 +58,7 @@ const AudioEmbed = ({ title, src }) => {
 
   return (
     <>
-      <Row className="audio-responsive" >
+      <Row className="audio-responsive centered" >
         <audio controls>
           <source src={process.env.PUBLIC_URL + src}
             title={title}
@@ -69,7 +69,7 @@ const AudioEmbed = ({ title, src }) => {
 
       <Form>
         <Form.Group controlId="pbrSlider">
-          <Row>
+          <Row className="centered">
             <Form.Label className="pbrLabel">Playback Speed: {Math.round(pbr * 100)}%</Form.Label>
             <Form.Range onChange={handleSetPlayback} value={pbr} min="0.5" max="2.0" step="0.05" className="pbrSlider" variant="dark" />
           </Row>

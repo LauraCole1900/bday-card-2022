@@ -6,9 +6,11 @@
 body {
   background-color: var(--charcoal);
   color: var(--ivory);
+  min-height: 100vh;
 }
 
 .centered {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
