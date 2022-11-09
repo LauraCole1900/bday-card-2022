@@ -20,12 +20,12 @@ This is a simple little React-based "Happy Birthday" e-card.
 
 ## Links
 
-[Deployed application on GitHub Pages](https://lauracole1900.github.io/bday-card-2022/) NOT DEPLOYED YET
+[Deployed application on GitHub Pages](https://lauracole1900.github.io/bday-card-2022/)
 
 ## Screenshot
 
 Happy Birthday:
-![Happy birthday](assets/images/#)
+![Happy birthday](assets/images/happy-birthday.png)
 
 ## Installation Instructions
 
@@ -37,7 +37,7 @@ This project is intended to be used to send "happy birthday" greetings.
 
 ## Technologies Used
 
-[![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-confetti](https://img.shields.io/badge/built%20with-React%20Confetti-cc3534)](https://www.npmjs.com/package/react-confetti) [![Typed.js](https://img.shields.io/badge/built%20with-Typed.js-242424)](https://github.com/mattboldt/typed.js/)
+[![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-confetti](https://img.shields.io/badge/built%20with-React%20Confetti-cc3534)](https://www.npmjs.com/package/react-confetti)
 
 ## Tests
 
