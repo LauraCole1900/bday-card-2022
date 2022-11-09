@@ -47,6 +47,8 @@ npm run test
 
 Code controlling playback rate of embedded audio files from [ynishi](https://stackoverflow.com/users/15015691/ynishi) and found [here](https://stackoverflow.com/questions/58731760/how-to-use-playbackrate-parameter-for-video-element-in-reactjs)
 
+Code for the birthday candle was created by [gabby](https://codepen.io/ggglll) and found [here](https://codepen.io/ggglll/pen/oJbMja)
+
 ## Contributing
 
 N/A

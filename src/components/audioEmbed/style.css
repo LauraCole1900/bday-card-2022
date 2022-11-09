@@ -9,14 +9,16 @@
 .around {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 1em;
 }
 
 .pbrButton {
-  max-width: 7rem;
+  max-width: 5rem;
   background-color: var(--chartreuse);
   color: var(--charcoal);
   border: 2px solid var(--charcoal);
   font-family: var(--bodyFont);
+  font-size: .5em;
 }
 .pbrButton:hover {
   background-color: var(--ltChartreuse);

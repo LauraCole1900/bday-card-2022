@@ -22,5 +22,6 @@ h1 {
 }
 
 .container {
-  transform: translateY(50%);
+  transform: translateY(5%);
+  min-height: 100vh;
 }

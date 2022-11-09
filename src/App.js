@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row } from 'react-bootstrap';
 import Confetti from 'react-confetti';
-import AudioEmbed from './components/audioEmbed/audioEmbed';
+import AudioEmbed from './components/audioEmbed';
+import Candle from './components/candle';
 import './App.css';
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           <Col sm={{ span: 10, offset: 1 }}>
             <AudioEmbed src='#' title='Happy Birthday' />
           </Col>
+        </Row>
+        <Row>
+          <Candle />
         </Row>
       </Container>
       <Confetti />
