@@ -6,19 +6,21 @@ import './App.css';
 
 function App() {
   return (
-    <Container>
-      <Row>
-        <Col className="centered">
-          <h1>Happy birthday!</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={{ span: 10, offset: 1 }}>
-          <AudioEmbed src='#' title='Happy Birthday' />
-        </Col>
-      </Row>
+    <>
+      <Container>
+        <Row>
+          <Col className="centered">
+            <h1>Happy birthday!</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={{ span: 10, offset: 1 }}>
+            <AudioEmbed src='#' title='Happy Birthday' />
+          </Col>
+        </Row>
+      </Container>
       <Confetti />
-    </Container>
+    </>
   );
 }
 

@@ -1,16 +1,26 @@
 :root {
   --charcoal: #1b1b1b;
   --ivory: #fff8ea;
+  --bodyFont: "Rock Salt", cursive;
 }
 
 body {
   background-color: var(--charcoal);
   color: var(--ivory);
   min-height: 100vh;
+  font-family: var(--bodyFont);
+}
+
+h1 {
+  margin-bottom: 5rem;
 }
 
 .centered {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  transform: translateY(50%);
 }
