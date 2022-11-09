@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c894bfd7.css",
-    "main.js": "/static/js/main.28b30e8b.js",
-    "static/js/787.29d18ced.chunk.js": "/static/js/787.29d18ced.chunk.js",
-    "index.html": "/index.html",
-    "main.c894bfd7.css.map": "/static/css/main.c894bfd7.css.map",
-    "main.28b30e8b.js.map": "/static/js/main.28b30e8b.js.map",
-    "787.29d18ced.chunk.js.map": "/static/js/787.29d18ced.chunk.js.map"
+    "main.css": "/bday-card-2022/static/css/main.c894bfd7.css",
+    "main.js": "/bday-card-2022/static/js/main.058464b2.js",
+    "static/js/787.29d18ced.chunk.js": "/bday-card-2022/static/js/787.29d18ced.chunk.js",
+    "index.html": "/bday-card-2022/index.html",
+    "main.c894bfd7.css.map": "/bday-card-2022/static/css/main.c894bfd7.css.map",
+    "main.058464b2.js.map": "/bday-card-2022/static/js/main.058464b2.js.map",
+    "787.29d18ced.chunk.js.map": "/bday-card-2022/static/js/787.29d18ced.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c894bfd7.css",
-    "static/js/main.28b30e8b.js"
+    "static/js/main.058464b2.js"
   ]
 }
