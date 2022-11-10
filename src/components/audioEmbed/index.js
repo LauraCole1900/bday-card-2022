@@ -60,7 +60,7 @@ const AudioEmbed = ({ title, src }) => {
     <>
       <Row className="audio-responsive centered" >
         <audio controls>
-          <source src={process.env.PUBLIC_URL + src}
+          <source src={src}
             title={title}
             type="audio/mp3"
             ref={audioRef} />
