@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bday-card-2022/static/css/main.c894bfd7.css",
-    "main.js": "/bday-card-2022/static/js/main.8a9afac6.js",
+    "main.js": "/bday-card-2022/static/js/main.b95fc35f.js",
     "static/js/787.29d18ced.chunk.js": "/bday-card-2022/static/js/787.29d18ced.chunk.js",
     "index.html": "/bday-card-2022/index.html",
     "main.c894bfd7.css.map": "/bday-card-2022/static/css/main.c894bfd7.css.map",
-    "main.8a9afac6.js.map": "/bday-card-2022/static/js/main.8a9afac6.js.map",
+    "main.b95fc35f.js.map": "/bday-card-2022/static/js/main.b95fc35f.js.map",
     "787.29d18ced.chunk.js.map": "/bday-card-2022/static/js/787.29d18ced.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c894bfd7.css",
-    "static/js/main.8a9afac6.js"
+    "static/js/main.b95fc35f.js"
   ]
 }
