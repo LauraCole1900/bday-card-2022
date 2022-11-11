@@ -12,31 +12,29 @@ const AudioEmbed = ({ title, src }) => {
   const audioRef = useRef();
   const [pbr, setPbr] = useState(1.0);
 
+  console.log(audioRef.current)
 
   //=================//
   //     Methods     //
   //=================//
 
-  // returns playbackRate to 1.0 on button click
-  const normal = () => {
-    setPbr(1.0)
-  };
-
-  // slows down playbackRate by increments of 5% on button click
-  const slowDown = () => {
-    let varPbr = pbr - .05;
-    if (pbr <= .50) {
-      varPbr = .50;
+  // sets playback rate
+  const handleSetRate = (e) => {
+    let varPbr = 100;
+    if (e.target.value === "slow") {
+      varPbr = (pbr * 100) - 5;
+      if (pbr <= .50) {
+        varPbr = 50;
+      }
+    } else if (e.target.value === "fast") {
+      varPbr = (pbr * 100) + 5;
+      if (pbr >= 2.00) {
+        varPbr = 200;
+      }
+    } else {
+      varPbr = 100;
     }
-    setPbr(varPbr);
-  };
-
-  // speeds up playbackRate by increments of 5% on button click
-  const speedUp = () => {
-    let varPbr = pbr + .05;
-    if (pbr >= 2.00) {
-      varPbr = 2.00;
-    }
+    varPbr = varPbr/100;
     setPbr(varPbr);
   };
 
@@ -59,11 +57,10 @@ const AudioEmbed = ({ title, src }) => {
   return (
     <>
       <Row className="audio-responsive centered" >
-        <audio controls>
+        <audio controls ref={audioRef} playbackRate={pbr} >
           <source src={src}
             title={title}
-            type="audio/mp3"
-            ref={audioRef} />
+            type="audio/mp3" />
         </audio>
       </Row>
 
@@ -75,9 +72,9 @@ const AudioEmbed = ({ title, src }) => {
           </Row>
         </Form.Group>
         <Row className="around">
-          <Button className="pbrButton button" onClick={slowDown}>Slower</Button>
-          <Button className="pbrButton button" onClick={normal}>Normal</Button>
-          <Button className="pbrButton button" onClick={speedUp}>Faster</Button>
+          <Button className="pbrButton button" value="slow" onClick={handleSetRate}>Slower</Button>
+          <Button className="pbrButton button" value="normal" onClick={handleSetRate}>Normal</Button>
+          <Button className="pbrButton button" value="fast" onClick={handleSetRate}>Faster</Button>
         </Row>
       </Form>
     </>
