@@ -22,19 +22,18 @@ const AudioEmbed = ({ title, src }) => {
   const handleSetRate = (e) => {
     let varPbr = 100;
     if (e.target.value === "slow") {
-      varPbr = (pbr * 100) - 5;
+      varPbr = pbr - .05;
       if (pbr <= .50) {
-        varPbr = 50;
+        varPbr = .50;
       }
     } else if (e.target.value === "fast") {
-      varPbr = (pbr * 100) + 5;
+      varPbr = pbr + .05;
       if (pbr >= 2.00) {
-        varPbr = 200;
+        varPbr = 2.00;
       }
     } else {
-      varPbr = 100;
+      varPbr = 1.00;
     }
-    varPbr = varPbr / 100;
     setPbr(varPbr);
   };
 
