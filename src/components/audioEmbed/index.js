@@ -34,7 +34,7 @@ const AudioEmbed = ({ title, src }) => {
     } else {
       varPbr = 100;
     }
-    varPbr = varPbr/100;
+    varPbr = varPbr / 100;
     setPbr(varPbr);
   };
 
@@ -56,8 +56,8 @@ const AudioEmbed = ({ title, src }) => {
 
   return (
     <>
-      <Row className="audio-responsive centered" >
-        <audio controls ref={audioRef} playbackRate={pbr} >
+      <Row className="audio-responsive centered">
+        <audio controls ref={audioRef} playbackRate={pbr}>
           <source src={src}
             title={title}
             type="audio/mp3" />
