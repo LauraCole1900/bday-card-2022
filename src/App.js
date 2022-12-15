@@ -16,7 +16,7 @@ function App() {
         </Row>
         <Row>
           <Col sm={{ span: 10, offset: 1 }}>
-            <AudioEmbed src='https://res.cloudinary.com/gcpmcloud2022/video/upload/v1668114618/Happy_Birthday_mp3_doabum.mp3' title='Happy Birthday' />
+            <AudioEmbed src='https://res.cloudinary.com/lauracloud/video/upload/v1668114618/Happy_Birthday_mp3_doabum.mp3' title='Happy Birthday' />
           </Col>
         </Row>
         <Row>
